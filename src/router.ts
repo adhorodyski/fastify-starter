@@ -1,6 +1,6 @@
 import { FastifyInstance } from "fastify";
-import { exampleController } from "example/controller";
+import { pingController } from "ping/controller";
 
 export const router = async (fastify: FastifyInstance) => {
-    fastify.register(exampleController, { prefix: "v1/example" });
+    fastify.register(pingController, { prefix: "v1/ping" });
 };
