@@ -14,9 +14,8 @@
         "incremental": true,
         "typeRoots": ["node_modules/@types"],
         "paths": {
-            "src/*": ["./*"],
-            "config/*": ["config/*"],
-            "example/*": ["example/*"],
+            "@src/*": ["./*"],
+            "@ping/*": ["ping/*"]
         }
     },
     "exclude": ["node_modules", "dist"],

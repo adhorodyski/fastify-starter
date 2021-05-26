@@ -1,5 +1,5 @@
-import { app } from "./app";
-import { config } from "config";
+import { app } from "@src/app";
+import { config } from "@src/config";
 
 (async () => {
     try {
