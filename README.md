@@ -15,6 +15,5 @@ yarn
 #### Develop
 
 ```
-yarn dev
+yarn start:dev
 ```
-
